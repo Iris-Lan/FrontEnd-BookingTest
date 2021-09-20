@@ -1,0 +1,45 @@
+*{
+    /*
+    margin: 0px;
+    padding: 0px;
+    */
+    font: 20px Tahoma;
+}
+body{
+    background: #ccc;
+}
+#theForm{
+    background: #fff;
+    width: 280px;
+    margin: 100px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+legend{
+    margin: 10px;
+}
+p{
+    font: 12px Tahoma;
+    color: steelblue;
+}
+#theForm div{
+    margin: 10px;
+}
+label,#submit{
+    text-transform: capitalize;
+}
+#total{
+    border: 1px solid maroon;
+    /* width: 100px; */
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: maroon;
+}
+/* input[type="number"],input[type="text"]{
+    text-align: right;
+} */
+#feedback{
+    font-size: 14px;
+    color: maroon;
+}
